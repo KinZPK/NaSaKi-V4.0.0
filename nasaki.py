@@ -221,7 +221,7 @@ def menu():
                 \x1b[38;2;0;212;14m║ \x1b[38;2;0;49;147m- - - - - - \x1b[38;2;239;239;239m DDoS Panel 2022\x1b[38;2;0;212;14m- - - - - - -\x1b[38;2;0;49;147m║
                 \x1b[38;2;0;212;14m╚═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╝
                     \x1b[38;2;0;212;14m╔═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╗
-                    \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mhttps://www.facebook.com/TranDucDuy.User \x1b[38;2;0;49;147m║
+                    \x1b[38;2;0;212;14m║ \x1b[38;2;239;239;239mhttps://www.facebook.com/rename.meta     \x1b[38;2;0;49;147m║
                     \x1b[38;2;0;212;14m╚═══════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════╝
                 \x1b[38;2;0;212;14m╔═══════════\x1b[38;2;0;186;45m════════\x1b[38;2;0;150;88m═══════\x1b[38;2;0;113;133m═════\x1b[38;2;0;83;168m═════\x1b[38;2;0;49;147m══════════╗
                 \x1b[38;2;0;212;14m║   \x1b[38;2;239;239;239m   Type help to see the all commands.      \x1b[38;2;0;49;147m║
@@ -744,7 +744,7 @@ INFO   ► INFO ADMIN
         else:
             try:
                 cmmnd = cnc.split()[0]
-                print("Command: [ " + cmmnd + " ] Đéo Có Methods - Command Này!")
+                print("Command: [ " + cmmnd + " ] Không Có Methods - Command Này!")
             except IndexError:
                 pass
 
@@ -752,12 +752,12 @@ INFO   ► INFO ADMIN
 def login():
     clear()
     user = "admin"
-    passwd = "12345"
+    passwd = "admin"
     username = input("Tên Đăng Nhập: ")
     password = getpass.getpass(prompt='Mật Khẩu: ')
     if username != user or password != passwd:
         print("")
-        print("User Chưa Có Ib Zalo Mua Tool Để Cấp User")
+        print("User Chưa Có Ib Zalo:0769417241 Mua Tool Để Cấp User")
         sys.exit(1)
     elif username == user and password == passwd:
         print("Thanks For Using Tool")
